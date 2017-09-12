@@ -1,0 +1,152 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: rgb(45, 45, 45);	
+}
+
+.contenedor, content{
+	background: rgb(45, 45, 45);
+	height: 2280px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 20px 5px #000;
+}
+
+p{
+	color: rgb(167, 165, 166); 
+	font-family: 'Anton', sans-serif;
+	margin-right: 70px;
+	margin-left: 70px;
+	text-align: justify;
+}
+
+h2{
+	color: rgb(167, 165, 166); 
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	padding: 10px;
+}
+
+ header{
+	background: rgb(23, 24, 26);
+	margin: auto ;
+	width: 1345px;
+	height: 176px;
+	position: relative;
+	box-shadow: 0px 0px 10px 3px #000; 
+	border-radius: 5px;
+}
+
+footer{
+	background: rgb(36, 35, 33);
+	margin:auto;
+	position: relative;
+	width: 1345px;
+	height: 175px;
+	box-shadow: 0px 0px 5px 3px #000;
+	border-radius: 5px;
+
+}
+
+.hair{
+	width: 10%;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	
+}
+
+li{
+	display: inline-block;
+	list-style: none;
+}
+
+a{
+	color: rgb(167, 165, 166); 
+	font-family: 'Oswald', sans-serif; 
+	font-size: 30px;
+	text-decoration: none;
+	padding: 40px;
+	padding-bottom: 5px;
+}
+
+.izquierda{
+	padding-left: 250px;
+	margin-top: -100px;
+}
+
+.derecha{
+	text-align: right;
+	padding-right: 225px;
+	margin-top: -45px;
+}
+
+.visita{
+	color: rgb(167, 165, 166);
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	padding-top: 9px;
+}
+
+.redes{
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+.banner{
+	position: relative;
+	display: block;
+	margin:auto;
+	top: 5px;
+    border: 30px solid rgb(36, 35, 33);
+	border-radius: 10px; 
+	width: 900px;
+	box-shadow: 0px 3px 5px 2px #000;
+}
+.logo{
+	display: block;
+	margin: auto;
+	position: relative;
+	width: 90%;
+	margin-top: 70px;
+	margin-bottom: 1px;
+}
+
+.circulos{
+	color: rgb(167, 165, 166); 
+	font-family: 'Anton', sans-serif;
+	text-align: justify;
+	width: 920px;
+	margin: auto;
+}
+
+.unica img{ 
+	position: relative;
+	background-size: cover;
+	border-radius: 600px;
+	float: left;
+	opacity: .6;
+	transform: rotate(-10deg);
+	width: 300px;
+	-webkit-transition:all .1s ease;
+	box-shadow: 0 0 10px 5px black;
+	margin-right: 30px;
+}
+
+.unica img:hover{
+	opacity: 1;	
+	border-radius: 600px;
+	-webkit-transform:scale(1.1) rotate(10deg);
+}
+
+.parrafo{
+	margin-top: 0px;
+	padding-top: 0px;
+}

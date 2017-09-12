@@ -1,0 +1,138 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: rgb(45, 45, 45);	
+}
+
+.contenedor, content{
+	background: rgb(45, 45, 45);
+	height: 2570px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 20px 5px #000;
+}
+
+p{
+	color: rgb(167, 165, 166); 
+	font-family: 'Anton', sans-serif;
+	margin-right: 70px;
+	margin-left: 70px;
+	margin-top: 30px;
+	text-align: justify;
+}
+
+h2{
+	color: rgb(167, 165, 166); 
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+ header{
+	background: rgb(23, 24, 26);
+	margin: auto ;
+	width: 1345px;
+	height: 176px;
+	position: relative;
+	box-shadow: 0px 0px 10px 3px #000; 
+	border-radius: 5px;
+}
+
+footer{
+	background: rgb(36, 35, 33);
+	margin:auto;
+	position: relative;
+	width: 1345px;
+	height: 175px;
+	box-shadow: 0px 0px 5px 3px #000;
+	border-radius: 5px;
+
+}
+
+.hair{
+	width: 10%;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	
+}
+
+li{
+	display: inline-block;
+}
+
+a{
+	color: rgb(167, 165, 166); 
+	font-family: 'Oswald', sans-serif; 
+	font-size: 30px;
+	text-decoration: none;
+	padding: 40px;
+	padding-bottom: 5px;
+}
+
+.izquierda{
+	padding-left: 250px;
+	margin-top: -100px;
+}
+
+.derecha{
+	text-align: right;
+	padding-right: 225px;
+	margin-top: -45px;
+}
+
+.visita{
+	color: rgb(167, 165, 166);
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	padding-top: 9px;
+}
+
+.redes{
+	text-align: center;
+	padding-top: 5px;
+}
+
+h2{
+	padding: 10px;
+}
+
+.banner{
+	position: relative;
+	display: block;
+	margin:auto;
+	top: 5px;
+    border: 30px solid rgb(36, 35, 33);
+	border-radius: 10px; 
+	width: 900px;
+	box-shadow: 0px 3px 5px 2px #000;
+}
+
+.ciudad{
+	display: block;
+	margin: auto;
+	width: 80%;
+	margin-top: 48px;
+	border-radius: 20px;
+	position: relative;
+	border:15px solid rgb(36, 35, 33);
+}
+
+.city{
+	display: block;
+	margin:auto;
+	width: 90%;
+	position: relative;
+	border-radius: 20px;
+	border:5px solid grey;
+	margin-top: 30px;
+}
+
+.cursiva{
+	font-size: 15px;
+}
